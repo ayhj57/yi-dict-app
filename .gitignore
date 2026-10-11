@@ -5,11 +5,13 @@ env/
 
 #环境变量文件（保护 API Key)
 .env
+.env.*
 
 #python 缓存
 __pycache__/
 *.py[cod]
 *$py.class
+.ruff_cache/
 
 #测试与工具缓存
 .pytest_cache/
