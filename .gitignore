@@ -1,0 +1,20 @@
+#虚拟环境
+.venv/
+venv/
+env/
+
+#环境变量文件（保护 API Key)
+.env
+
+#python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+#测试与工具缓存
+.pytest_cache/
+.mypy_cache/
+
+#编辑器配置
+.vscode/
+.idea/
